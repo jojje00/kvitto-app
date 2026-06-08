@@ -1,6 +1,6 @@
 print("Kvitto-appen startar!")
 
-belopp = 150
+belopp = float(input("Skriv in belopp: "))
 moms = belopp * 0.25
 totalt = belopp + moms
 
